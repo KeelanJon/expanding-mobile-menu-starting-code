@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: sans-serif;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #344bd8;
+  color: #fff;
+
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+h4 {
+  font-size: 1rem;
+  color: #fff;
+}
+
+/*------Button Styles------*/
+
+.menu-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+
+  font-size: 1.5rem;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+
+  color: #344bd8;
+  background-color: #fff;
+
+  -webkit-box-shadow: 2px 3px 6px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 2px 3px 6px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 3px 6px 5px rgba(0, 0, 0, 0.1);
+
+  transition: 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.menu-button:hover {
+  transform: scale(1.1);
+}
+
+/*-------Fade in and Out Classes -------*/
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibilty 0s 1s, opacity 0.3s linear;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.9s linear 0.6s;
+}
+
+.hide-container {
+  visibility: hidden;
+  transition: visibilty 1s 0s;
+}
