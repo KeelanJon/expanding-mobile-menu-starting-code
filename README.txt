@@ -1,5 +1,5 @@
 Hey there, thanks for downloading this starting code, 
-I hope my video on the expanding mobile = menu has been useful for
+I hope my video on the expanding mobile menu has been useful for
 you.
 
 Colours used in video: 
